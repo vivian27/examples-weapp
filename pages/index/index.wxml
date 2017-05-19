@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <button bindtap="bindViewTap" type="primary" class="usermotto">NRS-2002</button>
+</view>

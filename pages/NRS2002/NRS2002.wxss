@@ -1,0 +1,18 @@
+/* NRS2002.wxss */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica Neue, Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+  background: #fff;
+  border-bottom: #ddd solid 1px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.section {
+  font-family: Helvetica Neue, Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}

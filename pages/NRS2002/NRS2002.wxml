@@ -1,0 +1,26 @@
+<!--NRS2002.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="header">
+        NRS2002营养筛查风险表
+</view>
+<view class="section">
+    	基本情况
+</view>
+  <view class="section">
+    <view class="section__title">身高</view>
+    <input name="input" placeholder="厘米" />
+  </view>
+    <view class="section">
+    <view class="section__title">体重</view>
+    <input name="input" placeholder="千克/公斤" />
+  </view>
+    <view class="section">
+    <view class="section__title">年龄</view>
+    <input name="input" placeholder="岁" />
+  </view>
+  <view class="section">
+    <button formType="submit" type="primary">Submit</button>
+    <button formType="reset" type="primary">Reset</button>
+  </view>
+  
+</form>
