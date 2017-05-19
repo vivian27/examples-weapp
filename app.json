@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/NRS2002/NRS2002"
+  ],
+  "window": {
+  "backgroundTextStyle": "blue",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "i营养",
+  "navigationBarBackgroundColor": "blue",
+  "backgroundColor": "#F2f2f2",
+  "enablePullDownRefresh": false
+  }
+}
